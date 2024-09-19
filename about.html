@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Hospitals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #e8f5e9; /* Light green background */
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50; /* Green header */
+            padding: 10px;
+            color: white;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .hospital {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .hospital h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .hospital p {
+            margin: 5px 0;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="patient.html">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="first.jpg" alt="Hospital Image">
+        </div>
+        <h1>Available Hospitals</h1>
+        <div class="hospital">
+            <h2>Hospital A</h2>
+            <p><strong>Address:</strong> 123 Main St, City</p>
+            <p><strong>Contact:</strong> (123) 456-7890</p>
+            <p><strong>Timing:</strong> 8:00 AM - 8:00 PM</p>
+        </div>
+        <div class="hospital">
+            <h2>Hospital B</h2>
+            <p><strong>Address:</strong> 456 Elm St, City</p>
+            <p><strong>Contact:</strong> (987) 654-3210</p>
+            <p><strong>Timing:</strong> 9:00 AM - 9:00 PM</p>
+        </div>
+        <!-- Add more hospital sections as needed -->
+    </div>
+</body>
+</html>
